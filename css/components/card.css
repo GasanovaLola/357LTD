@@ -1,0 +1,195 @@
+.card {
+    width: 100%;
+    border-radius: 24px;
+}
+.bottom-positioning {
+    display: flex;
+    align-items: end;
+}
+.title-card {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+    color: #232323;
+}
+.sub-text-card {
+    font-size: 18px;
+    color: #232323;
+}
+.icon-card {
+    height: 25px;
+    width: auto;
+}
+.price-card {
+    font-size: 21px;
+    color: #1F1F1F;
+    font-weight: bold;
+    margin: 15px 0;
+}
+/* ---------------- -------------------*/
+.card-article {
+    background-color: #FFFFFF;
+    padding: 30px 40px;
+    border-radius: 24px;
+}
+.title-card-article {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+    color: #1F1F1F;
+}
+.sub-text-card-article {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    margin: 25px 0;
+
+    color: #969696;
+}
+.link {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 22px;
+    color: rgba(175, 64, 97, 0.94);
+    font-size: 15px;
+}
+.link i {
+    margin-left: 5px;
+}
+.flex i {
+    margin-bottom: 15px;
+    color: rgba(122, 86, 75, 0.85);
+    font-size: 25px;
+}
+/* ----------------- --------------------*/
+.card-grammar {
+    background-color: rgba(177, 28, 255, 0.6);
+    border-radius: 30px;
+    padding: 40px 50px;
+}
+.card-grammar-title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: left;
+    text-decoration-line: underline;
+
+    color: #FFFFFF;
+}
+.card-grammar-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+.light {
+    color: #FFFFFF;
+}
+.dark {
+    color: #4D4B4B;
+}
+.extra-margin {
+    margin: 35px 0;
+}
+.card-img img {
+    height: 425px;
+}
+.card-icons {
+    margin-top: 15px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 21px;
+}
+.card-icons i {
+    margin: 0 5px;
+}
+/*----------------- ------------------*/
+.main-card {
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 110px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 740px;
+}
+.main-card-title {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #4E4E4E;
+}
+.main-card-sub-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.5px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 7px;
+
+    color: #798486;
+}
+
+@media (min-width: 346px) and (max-width: 693px) {
+    .card {
+        border-radius: 24px !important;
+        padding: 30px;
+        height: 170px;
+    }
+    .title-card {
+        font-size: 21px;
+    }
+    /* ----------- -----------------*/
+    .card-article {
+        padding: 24px 23px;
+    }
+    .title-card-article {
+        font-size: 20.5px;
+    }
+    .sub-text-card-article {
+        margin: 15px 0;
+    }
+    .card-img img {
+        height: auto;
+    }
+    .card {
+        border-radius: 24px !important;
+        padding: 0px;
+        height: auto;
+    }
+    /*--------------- -------------*/
+    .card-grammar {
+        padding: 32px 27px;
+    }
+    .card-grammar-title {
+        font-size: 20px;
+    }
+    .card-grammar-text {
+        font-size: 16px;
+    }
+    .extra-margin {
+        margin: 15px 0;
+    }
+    /*--------------- ---------------*/
+    .main-card {
+        padding: 70px 50px;
+    }
+    .main-card-title {
+        font-size: 25px;
+    }
+}

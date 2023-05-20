@@ -1,0 +1,57 @@
+.hiro {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.66) 0%, rgba(255, 255, 255, 0.513563) 35.73%, rgba(255, 255, 255, 0) 100%);
+    padding: 90px 0 186px;
+}
+.bg-img {
+    background-image: url("../../img/bg-img.png");
+    z-index: 111;
+}
+.hiro-text-block {
+    max-width: 550px;
+}
+.img-container-hiro {
+    /*margin-top: -300px;*/
+}
+.hiro-temp {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.66) 0%, rgba(255, 255, 255, 0.513563) 35.73%, rgba(255, 255, 255, 0) 100%);
+    padding: 140px 0;
+    margin-top: 80px;
+}
+.main-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 61px;
+    text-transform: uppercase;
+    color: #7A564B;
+}
+.sub-text {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 30px;
+    color: #101010;
+}
+@media (min-width: 346px) and (max-width: 693px) {
+    .hiro-text-block {
+        max-width: 100%;
+    }
+    .main-text {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .hiro {
+        padding: 175px 0;
+    }
+}
+@media (min-width: 693px) and (max-width: 1040px) {
+    .hiro {
+        padding: 25px 0;
+    }
+    .main-text {
+        font-size: 30px;
+        line-height: 36px;
+    }
+}

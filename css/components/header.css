@@ -1,0 +1,11 @@
+header {
+    margin-top: -35px;
+    padding: 17px 0px;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.66) 0%, rgba(255, 255, 255, 0.513563) 35.73%, rgba(255, 255, 255, 0) 100%);
+}
+
+.head-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
